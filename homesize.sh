@@ -1,2 +1,5 @@
 #!/bin/bash
-du -h ~ | tail -n 1
+
+filename=$(date '+%Y-%m-%d')
+
+touch $filename
